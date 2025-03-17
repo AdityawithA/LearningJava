@@ -15,7 +15,7 @@ class Node {
 
 class Mergedlinkedlist {
     Node head;
-
+//this method add elements in the linked list
     public void add(int data) {
         Node newNode = new Node(data);
         if (head == null) {
