@@ -5,7 +5,7 @@ public class NullpointerException {
         String str = null;
 
         try {
-            System.out.println("String length: " + str.length());
+            System.out.println("String length: " + str.length()+" Aditya");
         } catch (NullPointerException e) {
             System.out.println(" NullPointerException! The string is null." +e.getMessage());
         }finally {
